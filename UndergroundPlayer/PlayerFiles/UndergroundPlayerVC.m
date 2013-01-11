@@ -156,6 +156,6 @@
 
 
 +(NSArray*)playlistFileBasenames {
-    return @[@"duck", @"cow", @"finch", @"sheep"];
+    return @[@"duck", @"cow", @"finch", @"sheep", @"jungle", @"chickens"];
 }
 @end
