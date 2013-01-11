@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @class UndergroundPlayerVC;
 @class AudioPlayerCollectionViewCell;
@@ -15,6 +16,10 @@
     
     UndergroundPlayerVC * player;
        AudioPlayerCollectionViewCell * cell;
+    
+    AVAudioPlayer * audioPlayer;
+    int active_song_index;
+    
 }
 
 @property (weak, nonatomic) IBOutlet UICollectionView *audioCollectionView;

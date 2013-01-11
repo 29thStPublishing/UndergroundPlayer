@@ -17,6 +17,10 @@
     self = [super initWithFrame:frame];
     if (self) {
         
+        audioPlayer = nil;
+        active_song_index = 0;
+
+        
         // Initialization code
         NSArray *arrayOfViews = [[NSBundle mainBundle] loadNibNamed:@"AudioPlayerCollectionViewCell" owner:self options:nil];
         
@@ -51,6 +55,11 @@
 }
 
 */
+
+
+
+
+
 
 
 

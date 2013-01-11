@@ -96,7 +96,7 @@
     
     
     
-    // NSString *cellData = [[NSBundle mainBundle] pathForResource:data ofType:@"wav"];
+     NSString *cellData = [[NSBundle mainBundle] pathForResource:data ofType:@"wav"];
     
     
    
@@ -123,6 +123,17 @@
      
      */
     
+        NSError * error;
+    
+    
+    
+    
+    audioPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:[NSURL fileURLWithPath:cellData] error:&error];
+    
+    
+    audioPlayer.numberOfLoops = -1;
+    [self play];
+    
     return cell;
 
  }
@@ -130,6 +141,27 @@
 
 
 
+-(void)pause {
+    [cell.startStopButton setTitle:@"Play" forState:UIControlStateNormal];
+    [audioPlayer pause];
+}
+
+-(void)play {
+    [cell.startStopButton setTitle:@"Pause" forState:UIControlStateNormal];
+    [audioPlayer play];
+}
+
+-(IBAction)startStopButtonPressed:(id)sender {
+    NSLog(@"start/stop button pressed.\n");
+    
+    if (audioPlayer.isPlaying) {
+        [self pause];
+    }
+    else {
+        [self play];
+    }
+    
+}
 
 
 
