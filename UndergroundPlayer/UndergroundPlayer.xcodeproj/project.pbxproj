@@ -27,6 +27,8 @@
 		960563DF16A097EF001DFCD5 /* duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960563D916A097EF001DFCD5 /* duck.wav */; };
 		960563E016A097EF001DFCD5 /* finch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960563DA16A097EF001DFCD5 /* finch.wav */; };
 		960563E216A09959001DFCD5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960563E116A09959001DFCD5 /* AVFoundation.framework */; };
+		960563E416A09E83001DFCD5 /* sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960563E316A09E83001DFCD5 /* sheep.mp3 */; };
+		960563E616A09E91001DFCD5 /* sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960563E516A09E91001DFCD5 /* sheep.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		960563D916A097EF001DFCD5 /* duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = duck.wav; sourceTree = "<group>"; };
 		960563DA16A097EF001DFCD5 /* finch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = finch.wav; sourceTree = "<group>"; };
 		960563E116A09959001DFCD5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		960563E316A09E83001DFCD5 /* sheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheep.mp3; sourceTree = "<group>"; };
+		960563E516A09E91001DFCD5 /* sheep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sheep.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 				960563D416A097EF001DFCD5 /* cow.mp3 */,
 				960563D516A097EF001DFCD5 /* duck.mp3 */,
 				960563D616A097EF001DFCD5 /* finch.mp3 */,
+				960563E316A09E83001DFCD5 /* sheep.mp3 */,
 			);
 			path = mp3;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				960563D816A097EF001DFCD5 /* cow.wav */,
 				960563D916A097EF001DFCD5 /* duck.wav */,
 				960563DA16A097EF001DFCD5 /* finch.wav */,
+				960563E516A09E91001DFCD5 /* sheep.wav */,
 			);
 			path = wav;
 			sourceTree = "<group>";
@@ -233,6 +239,8 @@
 				960563DE16A097EF001DFCD5 /* cow.wav in Resources */,
 				960563DF16A097EF001DFCD5 /* duck.wav in Resources */,
 				960563E016A097EF001DFCD5 /* finch.wav in Resources */,
+				960563E416A09E83001DFCD5 /* sheep.mp3 in Resources */,
+				960563E616A09E91001DFCD5 /* sheep.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

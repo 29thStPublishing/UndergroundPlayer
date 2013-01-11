@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface UndergroundPlayerVC : UIViewController {
+@interface UndergroundPlayerVC : UIViewController <UIGestureRecognizerDelegate>{
     AVAudioPlayer * audioPlayer;
+    int active_song_index;
 }
 
 
@@ -21,6 +22,7 @@
 -(IBAction)startStopButtonPressed:(id)sender;
 
 -(id)init;
+-(void)loadSongAtIndex:(int)index;
 
 @end
 
