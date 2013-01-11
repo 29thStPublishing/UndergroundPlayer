@@ -23,6 +23,7 @@
 
 -(id)init;
 -(void)loadSongAtIndex:(int)index;
++(NSArray*)playlistFileBasenamesforTim; 
 
 @end
 

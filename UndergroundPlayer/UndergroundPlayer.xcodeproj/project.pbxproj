@@ -33,6 +33,8 @@
 		960563EA16A0A011001DFCD5 /* jungle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 960563E816A0A010001DFCD5 /* jungle.mp3 */; };
 		960563ED16A0A02A001DFCD5 /* chickens.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960563EB16A0A02A001DFCD5 /* chickens.wav */; };
 		960563EE16A0A02A001DFCD5 /* jungle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960563EC16A0A02A001DFCD5 /* jungle.wav */; };
+		BCABB63216A0ACC70046BFF4 /* AudioPlayerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCABB63116A0ACC70046BFF4 /* AudioPlayerCollectionViewCell.m */; };
+		BCABB63616A0ACFA0046BFF4 /* AudioPlayerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCABB63516A0ACFA0046BFF4 /* AudioPlayerCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,9 @@
 		960563E816A0A010001DFCD5 /* jungle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jungle.mp3; sourceTree = "<group>"; };
 		960563EB16A0A02A001DFCD5 /* chickens.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chickens.wav; sourceTree = "<group>"; };
 		960563EC16A0A02A001DFCD5 /* jungle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jungle.wav; sourceTree = "<group>"; };
+		BCABB63016A0ACC70046BFF4 /* AudioPlayerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerCollectionViewCell.h; sourceTree = "<group>"; };
+		BCABB63116A0ACC70046BFF4 /* AudioPlayerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerCollectionViewCell.m; sourceTree = "<group>"; };
+		BCABB63516A0ACFA0046BFF4 /* AudioPlayerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioPlayerCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 		9605639A16A079DF001DFCD5 = {
 			isa = PBXGroup;
 			children = (
+				BCABB63416A0ACCD0046BFF4 /* CollectionViewPlayer */,
 				960563E116A09959001DFCD5 /* AVFoundation.framework */,
 				960563AF16A079DF001DFCD5 /* Demo app files */,
 				960563D116A07ACC001DFCD5 /* Player */,
@@ -188,6 +194,16 @@
 			path = wav;
 			sourceTree = "<group>";
 		};
+		BCABB63416A0ACCD0046BFF4 /* CollectionViewPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BCABB63016A0ACC70046BFF4 /* AudioPlayerCollectionViewCell.h */,
+				BCABB63116A0ACC70046BFF4 /* AudioPlayerCollectionViewCell.m */,
+				BCABB63516A0ACFA0046BFF4 /* AudioPlayerCollectionViewCell.xib */,
+			);
+			name = CollectionViewPlayer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -257,6 +273,7 @@
 				960563EA16A0A011001DFCD5 /* jungle.mp3 in Resources */,
 				960563ED16A0A02A001DFCD5 /* chickens.wav in Resources */,
 				960563EE16A0A02A001DFCD5 /* jungle.wav in Resources */,
+				BCABB63616A0ACFA0046BFF4 /* AudioPlayerCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +288,7 @@
 				960563BA16A079DF001DFCD5 /* AppDelegate.m in Sources */,
 				960563C316A079DF001DFCD5 /* ViewController.m in Sources */,
 				960563CF16A07AC2001DFCD5 /* UndergroundPlayerVC.m in Sources */,
+				BCABB63216A0ACC70046BFF4 /* AudioPlayerCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +407,7 @@
 				960563CB16A079DF001DFCD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

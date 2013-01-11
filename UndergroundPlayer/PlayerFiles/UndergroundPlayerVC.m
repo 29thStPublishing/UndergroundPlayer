@@ -154,6 +154,10 @@
 }
 
 
++(NSArray*)playlistFileBasenamesforTim {
+    return [NSArray arrayWithObjects:@"duck", @"cow", @"finch", @"sheep", @"jungle", @"chickens",nil];
+}
+
 
 +(NSArray*)playlistFileBasenames {
     return @[@"duck", @"cow", @"finch", @"sheep", @"jungle", @"chickens"];
